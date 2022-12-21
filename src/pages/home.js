@@ -128,7 +128,7 @@ function Home() {
               <FaEdit  size={50} className="img-icon"/>
             </label>
             <Form.Control className='input-name' type="text" placeholder="Nombre del tablero" onChange={nameChange}  />
-            <Button type="button" onClick={handleUpload} variant="success">Crear</Button>
+            <Button type="button" onClick={handleUpload} variant="success">Crear Tablero</Button>
           </Form>
         }
 
@@ -144,7 +144,7 @@ function Home() {
               as="textarea" 
               rows={3}
               className='input-nota' type="text" placeholder="Escribe tu nota aqui" onChange={textNotaChange}  />
-            <Button type="button" onClick={notaUpload} variant="success">Crear</Button>
+            <Button type="button" onClick={notaUpload} variant="success">Crear Nota</Button>
           </Form>
         }
 
